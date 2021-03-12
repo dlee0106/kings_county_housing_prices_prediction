@@ -1,38 +1,31 @@
-# Predicting Housing Prices in Kings County, Seattle 
+# Predicting Housing Prices in Kings County, Seattle
 
-Project name is a `<utility/tool/feature>` that allows `<insert_target_audience>` to do `<action/task_it_does>`.
+Authors: Donna Lee
 
-Additional line of information text about what the project does. Your introduction should be around 2 or 3 sentences. Don't go overboard, people won't read it.
+## Overview 
 
-## Prerequisites
+The goal of this project is to find a model that best predicts housing prices in Kings County, Seattle. The model was trained on 17,000+ sales in 2014 and 2015 from the area. I examined the data to understand what variables impacts housing prices and used a regression model to predict the prices of homes sold. 
 
-Before you begin, ensure you have met the following requirements:
-<!--- These are just example requirements. Add, duplicate or remove as required --->
-* You have installed the latest version of `<coding_language/dependency/requirement_1>`
-* You have a `<Windows/Linux/Mac>` machine. State which OS is supported/which is not.
-* You have read `<guide/link/documentation_related_to_project>`.
+## Initial Data Investigation
 
-## Installing <project_name>
+There are some key assumptions everyone holds about the housing market so I decided to start there. Some initial variables I looked at included: 
+* *Zip Code*
+* *Square Foot Living*
+  ![sqft_living_and_price](https://github.com/dlee0106/kings_county_housing_prices_prediction/blob/main/sqft_living_and_price.png)
+* *Number of Bedrooms*
+* *Number of Bathrooms*
+* *Selling Season*
+* *Renovated (Yes/No)*
 
-To install <project_name>, follow these steps:
 
-Linux and macOS:
-```
-<install_command>
-```
 
-Windows:
-```
-<install_command>
-```
-## Using <project_name>
+## Results
 
-To use <project_name>, follow these steps:
+![rating by type](https://github.com/zachagreenberg/Restaurant_Revamping_Analysis/blob/main/Visualization/avg_rating_by_type.png)
+Our data showed that Chinese restaurants on average had lower ratings than Italian restaurants in New York City. We saw this as a challenge to increase the overall average ratings for Chinese restaurants. 
 
-```
-<usage_example>
-```
+![delivery and rating](https://github.com/zachagreenberg/Restaurant_Revamping_Analysis/blob/main/Visualization/chinese_delivery_and_rating.png)
+When comparing delivery vs rating, we found that Chinese restaurants with no delivery option actually yielded higher ratings.
 
-Add run commands and examples you think users will find useful. Provide an options reference for bonus points!
 
 
