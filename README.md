@@ -19,11 +19,11 @@ There are some key assumptions everyone holds about the housing market so I deci
   - Here we ran an ANOVA test to determine if there was a significant difference between houses sold during each season. Our p-value was lower than our alpha so we rejected our null hypothesis that there was no difference between the different seasons. 
 * *Renovated (Yes/No)*
   - After running a t-test on renovation status, we found that the average price between houses that were renovated versus not were not the same. 
-  - ![Average Price by Renovation Status](https://github.com/dlee0106/kings_county_housing_prices_prediction/blob/main/price_by_season.png)
+  - ![Average Price by Renovation Status](https://github.com/dlee0106/kings_county_housing_prices_prediction/blob/main/avg_price_by_renovations.png)
 
 
 ## Initial Model
-
+Our initial model took all of the above variables into consideration as well as 
 
 
 
