@@ -16,7 +16,8 @@ There are some key assumptions everyone holds about the housing market so I deci
 * *Selling Season*
 * *Renovated (Yes/No)*
 
-Below are some initial analysis on these variables: 
+Below are some initial analysis on these variables:
+
 _Square Foot Living_
 ![sqft_living_and_price](https://github.com/dlee0106/kings_county_housing_prices_prediction/blob/main/sqft_living_and_price.png)
 
