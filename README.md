@@ -43,4 +43,14 @@ This initial model did an average job of predicting housing prices. Plotting the
 
 ![initial_model_qqplot_resid](https://user-images.githubusercontent.com/76017120/110979825-1becb300-8333-11eb-8e03-0d2e6171b45f.png)
 
+## Second Model
+Looking at the residuals, I decided to take the log of the price to see if we can better fit the model. Looking at the new residual plot, we can see that taking the log of the target variable was a better fit. 
 
+![second_model_qqplot_resid](https://user-images.githubusercontent.com/76017120/110980118-8140a400-8333-11eb-856d-81314f26b561.png)
+
+Seeing the impact of taking the log of the target variable on our model, I decided to also take the log of square foot living and square foot living of the neighboring 15 properties to further fit the model. This brought our RMSE for the training set down to around **130K**.
+
+## Feature Selection 
+Since we have 113 columns, I wanted to see if we could dwindle it down to just the most important ones. I used an F-test to check for columns that I could remove. Unfortunately this model did not perform better than our original log model. We decided to go ahead and run the original log model on the holdout data. 
+
+Stay tuned for how that performed!
