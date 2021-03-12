@@ -23,7 +23,24 @@ There are some key assumptions everyone holds about the housing market so I deci
 
 
 ## Initial Model
-Our initial model took all of the above variables into consideration as well as 
+Our initial OLS model looked at the relationship between price and:
+* Bathrooms
+* Bedrooms
+* Square foot living
+* Floors
+* Waterfront
+* Square foot living for the nearest 15 neighbors
+* Age of house
+* Whether or not it was renovated
+* Yard size
+* Grade
+* Zip Code
+* View
+* Month it was sold
+* Condition
 
+This initial model did an average job of predicting housing prices. Plotting the residuals (see QQ plot below), we saw that it wasn't very good at predicting the extreme values which led me to believe it wasn't a linear relationship. 
+
+![initial_model_qqplot_resid](https://user-images.githubusercontent.com/76017120/110979825-1becb300-8333-11eb-8e03-0d2e6171b45f.png)
 
 
